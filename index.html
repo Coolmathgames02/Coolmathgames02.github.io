@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kourosh Hashemi - Portfolio</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- AOS Animation CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header" data-aos="fade-down">
+      <div class="container">
+        <div class="nav-container">
+          <div class="logo">Kourosh Hashemi</div>
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#research">Research</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text" data-aos="fade-right">
+            <h1>Kourosh Hashemi</h1>
+            <p>
+              Hi, I’m Kourosh, a Computing Science student at SFU who loves
+              building secure, scalable systems. I’ve worked on AI-powered
+              firewalls, open-source dev tools, and published research on
+              adversarial SQL injections. I care about turning code into impact.
+            </p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+          </div>
+          <img
+            src="images/profile_pic.jpg"
+            alt="Kourosh Hashemi"
+            class="profile-image"
+            data-aos="fade-left"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Work Experience</h2>
+        <div class="experience-grid">
+          <div class="experience-item" data-aos="fade-up">
+            <img
+              src="images/globalGiantLogo.png"
+              alt="Global Giant Technologies"
+              class="company-logo"
+            />
+            <div class="experience-content">
+              <h3>Software Engineering Co-op</h3>
+              <div class="company-name">Global Giant Technologies Ltd.</div>
+              <div class="experience-period">
+                May – September 2024 • Burnaby, BC
+              </div>
+              <ul>
+                <li>
+                  <strong>Python</strong> SaaS platform, cut processing time by
+                  <strong>40%.</strong>
+                </li>
+                <li>
+                  <strong>REST API</strong> with Flask for internal data access.
+                </li>
+                <li>
+                  <strong>Deployed on Linux VPS</strong>, reduced load time by
+                  <strong>25%.</strong>
+                </li>
+              </ul>
+              <a
+                href="https://globalgiants.com.tw/"
+                class="learn-more-link"
+                target="_blank"
+                >Learn more →</a
+              >
+            </div>
+          </div>
+
+          <div class="experience-item" data-aos="fade-up" data-aos-delay="100">
+            <img
+              src="images/HCLTechLogo.png"
+              alt="HCL Technologies"
+              class="company-logo"
+            />
+            <div class="experience-content">
+              <h3>Data Engineer Apprentice</h3>
+              <div class="company-name">HCL Technologies Canada Inc.</div>
+              <div class="experience-period">
+                February 2023 – February 2024 • Vancouver, BC
+              </div>
+              <ul>
+                <li>
+                  Optimized <strong>microservices</strong> pipeline, cut cloud
+                  costs by <strong>30%.</strong>
+                </li>
+                <li>Automated CI/CD with <strong>Jenkins.</strong></li>
+                <li>Migrated to <strong>BigQuery</strong> for scalability.</li>
+              </ul>
+              <a
+                href="https://www.hcltech.com/"
+                class="learn-more-link"
+                target="_blank"
+                >Learn more →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card" data-aos="zoom-in-up">
+            <div class="project-image">AI-Powered WAF</div>
+            <div class="project-content">
+              <h3>Custom Web Application Firewall (WAF)</h3>
+              <ul>
+                <li>
+                  Engineered a WAF integrating <strong>Fail2ban</strong>,
+                  <strong>ModSecurity</strong>, and Apache for automated threat
+                  detection.
+                </li>
+                <li>Custom jails and regex rule tuning</li>
+                <li>
+                  LLM-based <strong>feature extraction</strong> for
+                  <strong>DNS exfiltration</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="zoom-in-up" data-aos-delay="100">
+            <div class="project-image">Job Tracker</div>
+            <div class="project-content">
+              <h3>Kanban-Style Job Application Tracker</h3>
+              <ul>
+                <li>
+
+                  Built a full-stack job tracker with
+                  <strong>Next.js/React</strong>, featuring a drag-and-drop
+                  Kanban board for managing applications.
+                </li>                
+                  Used <strong>Firebase Auth</strong> &
+                  <strong>Firestore</strong>
+                </li>
+                <li>
+ Optimized state with <strong>Redux</strong>, and deployed on
+                  <strong>Vercel</strong> and <strong>Firebase</strong> for
+                  seamless performance.
+                                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+<section class="section" id="skills">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Technologies & Tools</h2>
+    <div class="skills-container">
+      <!-- Frontend -->
+      <div class="skill-category" data-aos="fade-up">
+        <h3>Frontend Development</h3>
+        <div class="skills-list">
+          <span class="skill-item">React</span>
+          <span class="skill-item">Next.js</span>
+          <span class="skill-item">Vue.js</span>
+          <span class="skill-item">TypeScript</span>
+          <span class="skill-item">JavaScript</span>
+          <span class="skill-item">HTML5</span>
+          <span class="skill-item">CSS3</span>
+          <span class="skill-item">Tailwind CSS</span>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+        <h3>Backend Development</h3>
+        <div class="skills-list">
+          <span class="skill-item">Python</span>
+          <span class="skill-item">Flask</span>
+          <span class="skill-item">FastAPI</span>
+          <span class="skill-item">Node.js</span>
+          <span class="skill-item">Express.js</span>
+          <span class="skill-item">REST APIs</span>
+          <span class="skill-item">CI/CD</span>
+        </div>
+      </div>
+
+      <!-- Database & Cloud -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+        <h3>Database & Cloud</h3>
+        <div class="skills-list">
+          <span class="skill-item">PostgreSQL</span>
+          <span class="skill-item">MongoDB</span>
+          <span class="skill-item">BigQuery</span>
+          <span class="skill-item">GCP</span>
+          <span class="skill-item">Firebase</span>
+          <span class="skill-item">Docker</span>
+          <span class="skill-item">Kubernetes</span>
+        </div>
+      </div>
+
+      <!-- AI & Data Science -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+        <h3>AI & Data Science</h3>
+        <div class="skills-list">
+          <span class="skill-item">LLMs</span>
+          <span class="skill-item">TensorFlow</span>
+          <span class="skill-item">Scikit-learn</span>
+          <span class="skill-item">Pandas</span>
+          <span class="skill-item">NumPy</span>
+          <span class="skill-item">Jupyter</span>
+          <span class="skill-item">Data Visualization</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Research -->
+    <section class="section research-section" id="research">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">
+          Research & Publications
+        </h2>
+        <div class="research-grid">
+          <div class="research-item" data-aos="fade-up">
+            <h3>Adversarial SQL Injection Evasion (XploitSQL)</h3>
+            <p>
+              Published research on advanced techniques for bypassing SQL
+              injection defenses using adversarial examples. 
+            </p>
+            <a
+              href="https://dl.acm.org/doi/10.1145/3627673.3680102"
+              class="research-link"
+              target="_blank"
+              rel="noopener"
+              >View Paper →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title" style="color: white" data-aos="fade-up">
+          Get In Touch
+        </h2>
+        <div class="contact-grid">
+          <div class="contact-item" data-aos="fade-up">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <h3>Email</h3>
+            <a href="mailto:kouroshhashemi90@gmail.com"
+              >kouroshhashemi90@gmail.com</a
+            >
+          </div>
+          <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Google Scholar</h3>
+            <a
+              href="https://scholar.google.com/citations?user=3hOC7VUAAAAJ"
+              target="_blank"
+              >scholar.google.com</a
+            >
+          </div>
+          <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/khashemi" target="_blank"
+              >linkedin.com/in/khashemi</a
+            >
+          </div>
+          <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <h3>GitHub</h3>
+            <a href="https://github.com/Coolmathgames02" target="_blank"
+              >github.com/Coolmathgames02</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AOS Animation JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 800,
+        offset: 100,
+      });
+    </script>
+  </body>
+</html>
